@@ -118,7 +118,7 @@ struct CheckpointData {
 #ifdef __GNUC__
 __attribute__((unused))
 #endif
-
+infined--print-genesis-tx
 // You may add here other checkpoints using the following format:
 // {<block height>, "<block hash>"},
 const std::initializer_list<CheckpointData> CHECKPOINTS = {
